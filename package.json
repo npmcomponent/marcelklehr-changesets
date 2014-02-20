@@ -1,11 +1,7 @@
 {
-  "name": "changesets",
-  "version": "0.3.1",
+  "name": "marcelklehr-changesets",
   "description": "A Changeset library incorporating an operational transformation (OT) algorithm -- for node and the browser!",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/marcelklehr/changesets.git"
-  },
+  "version": "0.2.7",
   "keywords": [
     "operational transformation",
     "ot",
@@ -19,17 +15,7 @@
     "undo",
     "text"
   ],
-  "main": "./lib/index",
-  "scripts": {
-    "test": "vows ./test/*"
-  },
-  "dependencies": {
-  },
-  "devDependencies": {
-    "diff_match_patch": "*",
-    "vows": "*"
-  },
-  "author": "Marcel Klehr <mklehr@gmx.net>",
-  "license": [{"type": "MIT", "url": "http://opensource.org/licenses/MIT"}],
-  "readmeFilename": "README.md"
+  "main": "lib/index.js",
+  "dependencies": {},
+  "license": "MIT"
 }
